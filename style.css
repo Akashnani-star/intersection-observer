@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div {
+  height: 57.5%;
+  width: 57.5%;
+  margin: 30px;
+  background: green;
+  transition: all 1s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div img {
+  object-fit: cover;
+  object-position: center;
+}
