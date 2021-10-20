@@ -1,7 +1,7 @@
 let divs = document.querySelectorAll("div")
 
 const options = {
-    rootMargin: "0px 0px -430px 0px",
+    rootMargin: "0px 0px -400px 0px",
 };
 
 const observer = new IntersectionObserver((entries,observer)=>{
