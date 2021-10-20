@@ -1,3 +1,6 @@
+setTimeOut(()=>{
+
+
 let divs = document.querySelectorAll("div")
 
 const options = {
@@ -17,3 +20,5 @@ const observer = new IntersectionObserver((entries,observer)=>{
 },options);
 
 divs.forEach(div=>observer.observe(div));
+
+},3000)
